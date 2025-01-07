@@ -1,5 +1,3 @@
 ### Dependencies
 
-pynput
-
-pip install pynput
+pynput: pip install pynput
