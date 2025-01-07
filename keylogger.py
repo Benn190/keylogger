@@ -2,13 +2,12 @@ from pynput import keyboard # type: ignore
 
 key_presses = []
 
-def add_key(key):
-    key_presses.append(key)
+    
 
 def key_pressed(key):
     keyPress = '{0}'.format(key)
     print(keyPress)
-    add_key(keyPress)
+    key_presses.append(key)
 
 def key_released(key):
     if key == keyboard.Key.esc:
