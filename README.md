@@ -1,3 +1,3 @@
-Downloads
+### Dependencies
 
 pip install pynput
