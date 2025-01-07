@@ -1,4 +1,4 @@
-from pynput import keyboard
+from pynput import keyboard # type: ignore
 
 key_presses = []
 
